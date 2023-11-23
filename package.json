@@ -13,6 +13,7 @@
     "matter-js": "^0.19.0",
     "react": "18.2.0",
     "react-native": "0.72.5",
+    "react-native-config": "^1.5.1",
     "react-native-game-engine": "^1.2.0"
   },
   "devDependencies": {
@@ -35,5 +36,10 @@
   },
   "engines": {
     "node": ">=16"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
   }
 }
